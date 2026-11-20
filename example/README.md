@@ -1,6 +1,6 @@
-# opoinstall_flutter_global 示例工程
+# opoinstall_flutter_plugin 示例工程
 
-演示 `opoinstall_flutter_global` 的初始化、拉起回调、安装参数、注册统计、效果点和分享上报接口。
+演示 `opoinstall_flutter_plugin` 的初始化、拉起回调、安装参数、注册统计、效果点和分享上报接口。
 
 ## 运行
 

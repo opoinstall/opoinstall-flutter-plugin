@@ -1,7 +1,7 @@
 #include "AppDelegate.h"
 #include "GeneratedPluginRegistrant.h"
 //如果是swift，请在桥接文件（一般命名为XXX-Bridging-Header.h）中引入
-#import <opoinstall_flutter_global/OpoinstallFlutterPlugin.h>
+#import <opoinstall_flutter_plugin/OpoinstallFlutterPlugin.h>
 
 
 @implementation AppDelegate

@@ -30,7 +30,7 @@ import com.opoinstall.api.ResultCallBack;
 public class OpoinstallFlutterPlugin
         implements FlutterPlugin, MethodCallHandler, ActivityAware, PluginRegistry.NewIntentListener {
 
-    private static final String TAG = "flutter_global";
+    private static final String TAG = "opoinstall";
 
     private static final String METHOD_WAKEUP_NOTIFICATION = "onWakeupNotification";
     private static final String METHOD_INSTALL_NOTIFICATION = "onInstallNotification";
@@ -54,7 +54,7 @@ public class OpoinstallFlutterPlugin
     public void onAttachedToEngine(@NonNull FlutterPluginBinding binding) {
         flutterPluginBinding = binding;
         applicationContext = binding.getApplicationContext();
-        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "opoinstall_flutter_global");
+        channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "opoinstall_flutter_plugin");
         channel.setMethodCallHandler(this);
     }
 

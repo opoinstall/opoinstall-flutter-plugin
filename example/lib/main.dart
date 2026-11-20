@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:opoinstall_flutter_global/opoinstall_flutter_global.dart';
+import 'package:opoinstall_flutter_plugin/opoinstall_flutter_plugin.dart';
 
 /// 示例页面文案，按 [英文, 中文] 顺序存放，默认展示英文
 const Map<String, List<String>> _texts = <String, List<String>>{

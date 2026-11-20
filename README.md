@@ -1,7 +1,7 @@
-# opoinstall global flutter plugin
+# opoinstall flutter plugin
 
 
-opoinstall_flutter_global 插件封装了opoinstall 原生SDK，集成了 **渠道统计,携带参数安装,快速安装与一键拉起** 功能。  
+opoinstall_flutter_plugin 插件封装了opoinstall 原生SDK，集成了 **渠道统计,携带参数安装,快速安装与一键拉起** 功能。  
 
 
 ## 一、安装
@@ -11,7 +11,7 @@ opoinstall_flutter_global 插件封装了opoinstall 原生SDK，集成了 **渠�
 
 ``` yaml
 dependencies:
-  opoinstall_flutter_global: 1.0.0
+  opoinstall_flutter_plugin: 1.0.0
 ```
 
 ### 2. 安装插件
@@ -27,7 +27,7 @@ $ flutter pub get
 在 `Dart` 代码中使用以下代码导入:
 
 ``` dart
-import 'package:opoinstall_flutter_global/opoinstall_flutter_global.dart';
+import 'package:opoinstall_flutter_plugin/opoinstall_flutter_plugin.dart';
 ```
 
 ## 二、配置
@@ -111,10 +111,10 @@ android {
 如果拉起无法获取到参数，可能是因为方法被其它插件覆盖导致（opoinstall插件不会覆盖其它插件），可以修改其它插件通用链接delegate回调`..handleOpenURL..`方法`return NO;`来解决。 
 
 ### iOS隐私清单(PrivacyInfo.xcprivacy)
-插件已内置 `OpoInstallSDK.xcframework`，并通过 `opoinstall_flutter_global_privacy` 资源包提供 `PrivacyInfo.xcprivacy`  
+插件已内置 `OpoInstallSDK.xcframework`，并通过 `opoinstall_flutter_plugin_privacy` 资源包提供 `PrivacyInfo.xcprivacy`  
 
 由于隐私清单以 bundle 形式集成，可能会导致在 Xcode 14 及以后版本编译时提示未签名的错误：  
-`Signing for "opoinstall_flutter_global_privacy" requires a development team.`
+`Signing for "opoinstall_flutter_plugin_privacy" requires a development team.`
 
 可以在`Podfile`文件中做如下配置，然后重新`pod install`（推荐）：  
 ``` plist

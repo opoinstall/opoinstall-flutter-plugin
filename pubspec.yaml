@@ -1,5 +1,5 @@
-name: opoinstall_flutter_global
-description: opoinstall_flutter_global is a Flutter plugin based on opoinstall, and with null safety support.
+name: opoinstall_flutter_plugin
+description: opoinstall_flutter_plugin is a Flutter plugin based on opoinstall, and with null safety support.
 version: 1.0.0
 homepage: https://www.opoinstall.com/
 

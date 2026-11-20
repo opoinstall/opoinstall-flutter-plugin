@@ -1,4 +1,4 @@
-package io.opoinstall.opoinstall_flutter_global_example;
+package io.opoinstall.opoinstall_flutter_plugin_example;
 
 import android.content.Context;
 

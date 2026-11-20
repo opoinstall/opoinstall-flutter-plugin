@@ -26,7 +26,7 @@ static FlutterMethodChannel * FLUTTER_METHOD_CHANNEL;
 
 @implementation OpoinstallFlutterPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-    FlutterMethodChannel * channel = [FlutterMethodChannel methodChannelWithName:@"opoinstall_flutter_global" binaryMessenger:[registrar messenger]];
+    FlutterMethodChannel * channel = [FlutterMethodChannel methodChannelWithName:@"opoinstall_flutter_plugin" binaryMessenger:[registrar messenger]];
     OpoinstallFlutterPlugin* instance = [[OpoinstallFlutterPlugin alloc] init];
     [registrar addApplicationDelegate:instance];
     instance.flutterMethodChannel = channel;

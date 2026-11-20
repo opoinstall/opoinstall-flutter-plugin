@@ -18,7 +18,7 @@ class OpoinstallFlutterPlugin {
   late EventHandler _wakeupHandler;
   late EventHandler _installHandler;
 
-  static const MethodChannel _channel = const MethodChannel('opoinstall_flutter_global');
+  static const MethodChannel _channel = const MethodChannel('opoinstall_flutter_plugin');
 
   void setDebug(bool enabled) {
     var args = new Map();

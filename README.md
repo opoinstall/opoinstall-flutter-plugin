@@ -1,7 +1,7 @@
 # opoinstall global flutter plugin
 
 
-opoinstall_flutter_global 插件封装了opoinstall 国际站原生SDK，集成了 **渠道统计,携带参数安装,快速安装与一键拉起** 功能。  
+opoinstall_flutter_global 插件封装了opoinstall 原生SDK，集成了 **渠道统计,携带参数安装,快速安装与一键拉起** 功能。  
 
 
 ## 一、安装
